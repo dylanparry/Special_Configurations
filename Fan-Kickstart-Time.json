@@ -1,0 +1,17 @@
+{
+  "Configuration_adv.h" : [
+  {
+    "op": "Enable",
+    "searchfor": "FAN_KICKSTART_TIME",
+    "comment": "Enable fan kickstart time"
+  },
+  {
+    "op": "Custom",
+    "searchfor": "FAN_KICKSTART_TIME",
+    "mask": ".+",
+    "value": "500"
+  }
+  ],
+  "Configuration.h" : [],
+  "Version.h" : []
+}
